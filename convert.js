@@ -50,3 +50,16 @@ while(current < times){
 }
 
 console.log(sum);
+
+console.log("===========================");
+for (var start = 3; start <= 15; start++ ){
+  if (start > 9) {
+    console.log("You can get on the rollercoaster.");
+  } else {
+    console.log("You are too short to ride this rollercoaster.");
+  }
+}
+
+// start at 3, until you reach 15, incrementing by one
+//   THEN evaluate if current # is > 9, execute one Statement
+//   ELSE exectute diffetn statent
