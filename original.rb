@@ -3,7 +3,7 @@ puts apples
 
 puts "I have #{apples} apples."
 
-puts "==========================="
+# ===========================
 
 materials = ['wood', 'metal', 'stone']
 words = {
@@ -11,3 +11,14 @@ words = {
   'school' => 'A place of learning.',
   'ice cream' => 'A delicious milk-based dessert.',
 }
+
+puts "==========================="
+
+num = 16
+if num > 10
+  puts "#{num} is greater than 10."
+elsif num == 10
+  puts "#{num} is exactly 10."
+else
+  puts "#{num} must be less than 10."
+end
