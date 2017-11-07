@@ -60,6 +60,13 @@ for (var start = 3; start <= 15; start++ ){
   }
 }
 
-// start at 3, until you reach 15, incrementing by one
-//   THEN evaluate if current # is > 9, execute one Statement
-//   ELSE exectute diffetn statent
+console.log("===========================");
+
+// Create array of containers
+var containers = ['purse', 'wallet', 'backpack'];
+
+// For each container, print name
+for(var number = 0; number < containers.length; number ++){
+  var container = containers[number];
+  console.log(container);
+}

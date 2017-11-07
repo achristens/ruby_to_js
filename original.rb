@@ -53,3 +53,10 @@ puts "==========================="
     puts "You are too short to ride this rollercoaster."
   end
 end
+
+puts "==========================="
+
+containers = ['purse', 'wallet', 'backback']
+containers.each do |container|
+  puts container
+end
