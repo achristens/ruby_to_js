@@ -60,3 +60,10 @@ containers = ['purse', 'wallet', 'backback']
 containers.each do |container|
   puts container
 end
+
+puts "==========================="
+def hello_world
+  puts "Hello world!"
+end
+
+hello_world

@@ -70,3 +70,8 @@ for(var number = 0; number < containers.length; number ++){
   var container = containers[number];
   console.log(container);
 }
+
+console.log("===========================");
+
+var helloWorld = "Hello world!"
+console.log(helloWorld);
