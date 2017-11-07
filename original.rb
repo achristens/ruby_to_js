@@ -35,3 +35,11 @@ base = 5
 20.times do |num|
   puts num + base
 end
+
+puts "==========================="
+
+total = 0
+100.times do |num|
+  total += num
+end
+puts total

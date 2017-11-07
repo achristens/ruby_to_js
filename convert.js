@@ -37,3 +37,16 @@ console.log("===========================");
 for (var base = 5; base <= 25; base++ ){
   console.log(base);
 }
+
+console.log("===========================");
+
+var times = 100;
+var current = 0;
+var sum = 0;
+
+while(current < times){
+  sum += current;
+  current ++;
+}
+
+console.log(sum);
