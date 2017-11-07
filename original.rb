@@ -22,3 +22,9 @@ elsif num == 10
 else
   puts "#{num} must be less than 10."
 end
+
+puts "==========================="
+
+10.times do
+  puts "Doing the same thing over and over."
+end

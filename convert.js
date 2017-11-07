@@ -22,3 +22,12 @@ if (num > 10) {
 } else {
   console.log(num + " must be less than 10");
 }
+
+console.log("===========================");
+
+var number = 0;
+
+while (number < 10){
+  console.log("Doing the same thing over and over");
+  number ++;
+}
