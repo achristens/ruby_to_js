@@ -75,14 +75,23 @@ console.log("===========================");
 
 var helloWorld = "Hello world!";
 var leaveMeAlone = "Go away!";
-var mood = false;
+var mood = true;
 
 function printGreeting(){
   if (mood === true){
     console.log(helloWorld);
   } else{
-    console.log(leaveMeAlone)
+    console.log(leaveMeAlone);
   }
 }
 
 printGreeting();
+
+console.log("===========================");
+
+function add(number1, number2){
+  return number1 + number2;
+}
+
+result = add(5, 7);
+console.log(result);

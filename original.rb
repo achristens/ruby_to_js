@@ -67,3 +67,10 @@ def hello_world
 end
 
 hello_world
+puts "==========================="
+def add(first_num, second_num)
+  first_num + second_num
+end
+
+amount = add(5, 7)
+puts amount
