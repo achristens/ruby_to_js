@@ -31,3 +31,9 @@ while (number < 10){
   console.log("Doing the same thing over and over");
   number ++;
 }
+
+console.log("===========================");
+
+for (var base = 5; base <= 25; base++ ){
+  console.log(base);
+}

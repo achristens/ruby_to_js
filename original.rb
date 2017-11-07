@@ -28,3 +28,10 @@ puts "==========================="
 10.times do
   puts "Doing the same thing over and over."
 end
+
+puts "==========================="
+
+base = 5
+20.times do |num|
+  puts num + base
+end
