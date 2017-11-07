@@ -73,5 +73,16 @@ for(var number = 0; number < containers.length; number ++){
 
 console.log("===========================");
 
-var helloWorld = "Hello world!"
-console.log(helloWorld);
+var helloWorld = "Hello world!";
+var leaveMeAlone = "Go away!";
+var mood = false;
+
+function printGreeting(){
+  if (mood === true){
+    console.log(helloWorld);
+  } else{
+    console.log(leaveMeAlone)
+  }
+}
+
+printGreeting();
